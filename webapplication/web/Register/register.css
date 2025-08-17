@@ -1,0 +1,102 @@
+
+.register-container {
+  max-width: 400px;
+  margin: 60px auto;
+  padding: 2.5rem 2rem 2rem 2rem;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.10);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.register-container form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+
+.register-title {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  color: #282c34;
+  text-align: center;
+}
+
+
+.register-container label {
+  margin-bottom: 0.3rem;
+  font-size: 1rem;
+  color: #333;
+  text-align: left;
+  margin-left: 2px;
+}
+
+
+.register-input,
+.register-textarea {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  margin-bottom: 1.2rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 1rem;
+  box-sizing: border-box;
+  transition: border 0.2s;
+  resize: vertical;
+}
+
+.register-input {
+  min-height: 40px;
+}
+
+.register-textarea {
+  min-height: 80px;
+
+}
+
+.register-input:focus,
+.register-textarea:focus {
+  border: 1.5px solid #61dafb;
+  outline: none;
+}
+
+
+.register-btn {
+  width: 100%;
+  padding: 0.75rem;
+  background: #61dafb;
+  color: #222;
+  border: none;
+  border-radius: 6px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  cursor: pointer;
+  margin-bottom: 1rem;
+  transition: background 0.2s;
+}
+.register-btn:hover {
+  background: #21a1f3;
+  color: #fff;
+}
+
+
+.register-error {
+  color: #e74c3c;
+  margin-bottom: 1rem;
+  font-size: 0.98rem;
+  text-align: center;
+}
+
+
+.register-success {
+  color: #27ae60;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  text-align: center;
+}
